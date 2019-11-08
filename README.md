@@ -8,10 +8,10 @@ I've been surprised by the companies that have cuddled up to Donald Trump, but I
 
 
 ## Want to help?
-###Got information that should be here? 
+### Got information that should be here? 
 Make a change request!
 
-###Got some extra change?
+### Got some extra change?
 Donate to these lovely places who are doing the hard work.
 
 [https://www.opensecrets.org](https://www.opensecrets.org/donate)
