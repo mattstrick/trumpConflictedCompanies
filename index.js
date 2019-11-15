@@ -1,4 +1,4 @@
-[
+export const TrumpConflictedCompanies = [
     {
       "id": "cubs",
       "brand": "Cubs",
@@ -258,4 +258,4 @@
       "sourceDescription": "#GrabYourWallet",
       "source": "https://grabyourwallet.org/Boycott%20These%20Companies.html"
     }
-  ]
+  ];
