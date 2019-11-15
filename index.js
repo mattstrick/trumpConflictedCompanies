@@ -1,4 +1,4 @@
-export const TrumpConflictedCompanies = [
+exports.TrumpConflictedCompanies = [
     {
       "id": "cubs",
       "brand": "Cubs",
