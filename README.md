@@ -1,5 +1,5 @@
 # trumpConflictedCompanies
-A collection of Trump and Trump conflicted companies in an easy to use JSON format.
+A collection of Trump conflicted companies in an easy to use JSON format.
 
 This data is a cumulative list of companies that either enrich Trump personally, enrich his close associates, or have overtly enriched themselves using his policies.
 

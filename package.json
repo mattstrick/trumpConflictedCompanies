@@ -1,0 +1,23 @@
+{
+  "name": "trump-conflicted-companies",
+  "version": "1.0.0",
+  "description": "A collection of Trump conflicted companies in an easy to use JSON format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattstrick/trumpConflictedCompanies.git"
+  },
+  "keywords": [
+    "data",
+    "opensource"
+  ],
+  "author": "matt strick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattstrick/trumpConflictedCompanies/issues"
+  },
+  "homepage": "https://github.com/mattstrick/trumpConflictedCompanies#readme"
+}
