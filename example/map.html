@@ -13,6 +13,7 @@
       type="text/css"
       href="https://api.tomtom.com/maps-sdk-for-web/cdn/plugins/PanControls/1.0.8/PanControls.css"
     />  
+    <script src="../index.js"></script>
     <style>
     #map {
         min-height: 300px;
@@ -36,12 +37,26 @@
       window.isMobileOrTablet = window.isMobileOrTablet || isMobileOrTablet;
 
       function init() {
-        
+        // load(testGeocodeUrl, callbackFn);
 
-        load(testGeocodeUrl, callbackFn);
+        console.log(TrumpConflictedCompanies);
+        TrumpConflictedCompanies.forEach(company => {
+            if (company.locations) {
+                company.locations.forEach(location => {
+                    // var geocode = getGeocodeByLocation(location);
+                    load(location, callbackFn);
+                })
+                
+            }
+        });
       }
 
-      function load(url, callback) {
+      function getLocationUrl(location) {
+        return `https://api.tomtom.com/search/2/geocode/${encodeURI(location)}.json?key=${key}`;
+      };
+
+      function load(location, callback) {
+        var url = getLocationUrl(location);
         var xhr = new XMLHttpRequest();
 
         xhr.onreadystatechange = function() {
