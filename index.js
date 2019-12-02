@@ -12,7 +12,8 @@ var TrumpConflictedCompanies = [
       "brand": "Amway",
       "description": "Betsy Devos's family owns Amway.",
       "sourceDescription": "Betsy Devos's 2018 Financial Disclosures",
-      "source": "https://www.opensecrets.org/trump/financial-disclosures"
+      "source": "https://www.opensecrets.org/trump/financial-disclosures",
+      "locations": ['7575 Fulton St. Ada, MI 49335']
     },
     {
       "id": "trump",
@@ -258,6 +259,20 @@ var TrumpConflictedCompanies = [
       "description": "French businessman and chairman of LVMH, Bernard Arnault, did a photo op with the Trump administration at a Louis Vuitton workshop in Texas.",
       "sourceDescription": "#GrabYourWallet",
       "source": "https://grabyourwallet.org/Boycott%20These%20Companies.html"
+    },
+    {
+        "id": "mypillow",
+        "brand": "MyPillow",
+        "description": "Lindell, the CEO, has been a vocal supporter since 2016, including recently saying that Donald Trump was 'chosen by God'."
+        "sourceDescription": "The Hill - MyPillow CEO says Trump was 'chosen by God' to run for president",
+        "source": "https://thehill.com/blogs/blog-briefing-room/news/432233-mypillow-ceo-says-trump-was-chosen-by-god-to-run-for-president"
+    },
+    {
+        "id": "dorya",
+        "brand": "Dorya",
+        "description": "Carries the Trump Home Collection",
+        "sourceDescription": "The Trump Home Collection website",
+        "source": "https://trumphomecollection.com/pages/locations"
     }
   ];
 
