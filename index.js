@@ -273,6 +273,13 @@ var TrumpConflictedCompanies = [
         "description": "Carries the Trump Home Collection",
         "sourceDescription": "The Trump Home Collection website",
         "source": "https://trumphomecollection.com/pages/locations"
+    },
+    {
+        "id": "kushnerProperties",
+        "brand": "Kushner Properties",
+        "description": "Owned by Jared Kushner, Trump's son-in-law and White House advisor",
+        "sourceDescription": "Kushner Properties website",
+        "source": "https://kushner.com/"
     }
   ];
 
